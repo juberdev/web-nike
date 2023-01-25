@@ -1,0 +1,114 @@
+.column {
+    width: 45%;
+    height: 55vh;
+    float: left;
+    padding: 30px;
+    background-color: white;
+    // border: 3px solid black;
+    // margin-right: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.36);
+}
+
+.imagen {
+    height: 150px;
+    width: 100%;
+    margin-top: -16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/bg-contactanos.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    // color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    padding: 5% 0 0 0;
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+}
+
+.column02 {
+    width: 45%;
+    height: 55vh;
+    float: right;
+    padding: 30px;
+    background-color: white;
+
+    // border: 3px solid black;
+    // margin-right: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.36);
+}
+
+.column02 h3 {
+    font-weight: 400;
+    font-family: var(--font-poppins);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.column02 img {
+    width: 200px;
+    margin: auto;
+}
+
+.column02 .icon{
+    color: #970832;
+    font-size: 25px;
+}
+// .list{
+//     font-weight: 400;
+//     font-family: var(--font-poppins);
+
+// TABLET
+@media (max-width: 860px) {
+    .container {
+        width: 90%;
+    }
+    .column02 img {
+        width: 150px;
+        margin: auto;
+    }
+}
+
+// CELULAR
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        height: 100%;
+    }
+
+    .column {
+        width: 85%;
+        float: none;
+        margin: 20px 0 20px 20px;
+        height: 400px;
+
+    }
+
+    .column02 {
+        width: 85%;
+        float: none;
+        margin-left: 20px;
+        height: 400px;
+        margin: 0 0 20px 20px;
+    }
+    .column02 img {
+        width: 100px;
+        margin: auto;
+    }
+
+    .column02 h3 {
+        padding-left: 10px;
+    }
+
+    .column02 .icon{
+        font-size: 18px;
+    }
+}

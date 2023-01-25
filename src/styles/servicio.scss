@@ -1,0 +1,21 @@
+.carta{
+    margin: 0px 10px 25px 10px;
+    cursor: pointer;
+}
+
+.cardImg{
+    height: 20vh;
+    width: 100%;
+}
+.contenedor{
+    overflow:hidden;
+    border-radius: 10px 10px 0 0;
+    // transition-duration: 2s;
+}
+
+.contenedor :hover{
+    -webkit-transform:scale( 1.3);
+    transform:scale( 1.3);
+    transition-duration: 1s;
+}
+

@@ -1,0 +1,118 @@
+// floatButtons
+.floatIcon {
+    color: var(--color-primary)
+}
+
+.containerTool:hover .floatIcon {
+    color: var(--color-secundary)
+}
+
+.floatIcons {
+    color: var(--color-primary);
+    font-size: 35px;
+    margin-left: -9px;
+}
+
+.containerTool:hover .floatIcons {
+    color: var(--color-secundary)
+}
+
+.a {
+    width: 60px;
+    height: 60px;
+}
+
+.a .ant-float-btn-body {
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
+}
+
+//fin
+
+// Slider
+.container-fluid {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.titleSlider {
+    width: 40vh;
+    text-align: center;
+    border: 3px solid;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    padding: 15px;
+    border-color: var(--color-secundary);
+    color: var(--color-secundary);
+    font-size: 35px;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+    // padding: 32px;
+    text-align: center;
+
+}
+
+
+.parallax {
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://1.bp.blogspot.com/-Ez1e2Am4aGI/UN3ppqpQ6JI/AAAAAAAARas/14mm9U4ZYMI/s1600/hot-air-balloons-balloon-hot-lake-nature-night-reflection.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallaxNosotros {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/nosotros-fondo.jpeg');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 10% 20%;
+    background-repeat: no-repeat;
+}
+.parallaxServicio {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/servicio-fondo.jpeg');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+    background-repeat: no-repeat;
+}
+.parallaxContacto {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/contacto-fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+    background-repeat: no-repeat;
+}
+
+.parallaxEquipo {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/equipo.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 10% -250%;
+    background-repeat: no-repeat;
+}
+
+
+// Fin Slider
+
+@media (max-width: 400px) {
+    .titleSlider {
+        // width: 40vh;
+        // text-align: center;
+        // border: 3px solid;
+        // position: absolute;
+        // top: 40%;
+        // left: 5%;
+        // padding: 15px;
+        // border-color: var(--color-secundary);
+        // color: var(--color-secundary);
+        font-size: 25px;
+    }
+}

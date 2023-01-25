@@ -1,0 +1,126 @@
+.bodyHome {
+    background-color: var(--color-primary);
+}
+
+.content-op {
+    // background-color: gray;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+    height: 170px;
+
+}
+
+.span-op {
+    color: var(--color-secundary);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 0;
+    transition: margin-top 0.5s;
+    z-index: 100;
+}
+
+.img-op {
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.button-op {
+    margin-top: 15px;
+    color: white;
+    padding: 0 15px 0 15px;
+    font-size: 15px;
+    transition: color 0.5s, font-size 0.5s;
+    border: none;
+    background-color: transparent;
+    border: 3px solid;
+    -webkit-mask:
+        conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+        conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
+        linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+}
+
+
+
+.content-op:hover .span-op {
+    margin-top: -35px;
+}
+
+.content-op:hover .img-op {
+    opacity: 0;
+}
+
+.content-op:hover .button-op {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+
+    --_i: 100%;
+    color: var(--color-secundary);
+    transition: .3s, -webkit-mask-size .3s .3s;
+}
+
+.icon {
+    color: var(--color-primary);
+    font-size: 30px;
+}
+
+.btnConsuta {
+    color: var(--color-secundary);
+    background-color: var(--color-primary);
+    font-size: 20px;
+    height: 45px;
+
+}
+
+@media (max-width: 860px) {
+    .container {
+        width: 90%;
+    }
+    .column02 img {
+        width: 150px;
+        margin: auto;
+    }
+}
+
+// CELULAR
+@media (max-width: 400px) {
+}
+// button con movimiento
+// .box {
+//     --border-size: 3px;
+//     --border-angle: 0turn;
+//     width: 60vmin;
+//     height: 50vmin;
+//     background-image: conic-gradient(from var(--border-angle),
+//             #213,
+//             #112 50%,
+//             #213),
+//         conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+//     background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+//         cover;
+//     background-position: center center;
+//     background-repeat: no-repeat;
+
+//     animation: bg-spin 3s linear infinite;
+
+//     @keyframes bg-spin {
+//         to {
+//             --border-angle: 1turn;
+//         }
+//     }
+
+//     &:hover {
+//         animation-play-state: paused;
+//     }
+// }
+
+// @property --border-angle {
+//     syntax: "<angle>";
+//     inherits: true;
+//     initial-value: 0turn;
+// }
