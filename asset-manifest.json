@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/web-nike/static/css/main.268888e4.css",
+    "main.js": "/web-nike/static/js/main.5a92fa18.js",
+    "static/js/787.7f808d80.chunk.js": "/web-nike/static/js/787.7f808d80.chunk.js",
+    "static/media/contacto-fondo.jpg": "/web-nike/static/media/contacto-fondo.78db5fc82a328b3edc58.jpg",
+    "static/media/nosotros.png": "/web-nike/static/media/nosotros.c449f83ff991e16db412.png",
+    "static/media/servicio-fondo.jpeg": "/web-nike/static/media/servicio-fondo.22372b9b64815b6719e0.jpeg",
+    "static/media/nosotros-fondo.jpeg": "/web-nike/static/media/nosotros-fondo.ea6205a80d86b6ae1ee7.jpeg",
+    "static/media/equipo.jpg": "/web-nike/static/media/equipo.c1038da971269dbc5bc3.jpg",
+    "static/media/CONSULTAS-VIRTUAL.jpg": "/web-nike/static/media/CONSULTAS-VIRTUAL.6cd46083fa6848d00899.jpg",
+    "static/media/perfil.jpg": "/web-nike/static/media/perfil.a58f80d60247bdb2e3e5.jpg",
+    "static/media/bg-contactanos.jpg": "/web-nike/static/media/bg-contactanos.049e44692db421eb0160.jpg",
+    "index.html": "/web-nike/index.html",
+    "main.268888e4.css.map": "/web-nike/static/css/main.268888e4.css.map",
+    "main.5a92fa18.js.map": "/web-nike/static/js/main.5a92fa18.js.map",
+    "787.7f808d80.chunk.js.map": "/web-nike/static/js/787.7f808d80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.268888e4.css",
+    "static/js/main.5a92fa18.js"
+  ]
+}
